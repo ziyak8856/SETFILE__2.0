@@ -31,7 +31,7 @@ CREATE TABLE `setting` (
   PRIMARY KEY (`id`),
   KEY `customer_id` (`customer_id`),
   CONSTRAINT `setting_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=74 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=75 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -87,6 +87,7 @@ INSERT INTO `setting` VALUES (70,101,'cphy_12','JN15_DELL_cphy_12','2025-05-31 1
 INSERT INTO `setting` VALUES (71,101,'dphy_12','JN15_DELL_dphy_12','2025-05-31 15:16:23');
 INSERT INTO `setting` VALUES (72,102,'cphy_12','JN16_PRS_cphy_12','2025-05-31 15:18:49');
 INSERT INTO `setting` VALUES (73,103,'cphy_12','JN16_EDS_cphy_12','2025-05-31 15:18:49');
+INSERT INTO `setting` VALUES (74,104,'cphy_12','JN16_DELL_cphy_12','2025-05-31 15:21:16');
 /*!40000 ALTER TABLE `setting` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -99,4 +100,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-05-31 20:48:52
+-- Dump completed on 2025-05-31 20:51:18
