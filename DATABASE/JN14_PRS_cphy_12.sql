@@ -16,13 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `jn10_prs_cphy_12`
+-- Table structure for table `jn14_prs_cphy_12`
 --
 
-DROP TABLE IF EXISTS `jn10_prs_cphy_12`;
+DROP TABLE IF EXISTS `jn14_prs_cphy_12`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `jn10_prs_cphy_12` (
+CREATE TABLE `jn14_prs_cphy_12` (
   `id` int NOT NULL AUTO_INCREMENT,
   `serial_number` int NOT NULL,
   `Tunning_param` varchar(512) DEFAULT NULL,
@@ -31,13 +31,16 @@ CREATE TABLE `jn10_prs_cphy_12` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `jn10_prs_cphy_12`
+-- Dumping data for table `jn14_prs_cphy_12`
 --
 
-LOCK TABLES `jn10_prs_cphy_12` WRITE;
-/*!40000 ALTER TABLE `jn10_prs_cphy_12` DISABLE KEYS */;
-INSERT INTO `jn10_prs_cphy_12` VALUES (1,1,'MCLK'),(2,2,'PHY_TYPE'),(3,3,'PHY_LANE'),(4,4,'MIPI_DATA_RATE');
-/*!40000 ALTER TABLE `jn10_prs_cphy_12` ENABLE KEYS */;
+LOCK TABLES `jn14_prs_cphy_12` WRITE;
+/*!40000 ALTER TABLE `jn14_prs_cphy_12` DISABLE KEYS */;
+INSERT INTO `jn14_prs_cphy_12` VALUES (1,1,'MCLK');
+INSERT INTO `jn14_prs_cphy_12` VALUES (2,2,'PHY_TYPE');
+INSERT INTO `jn14_prs_cphy_12` VALUES (3,3,'PHY_LANE');
+INSERT INTO `jn14_prs_cphy_12` VALUES (4,4,'MIPI_DATA_RATE');
+/*!40000 ALTER TABLE `jn14_prs_cphy_12` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -49,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-05-31 19:42:39
+-- Dump completed on 2025-05-31 20:12:01
