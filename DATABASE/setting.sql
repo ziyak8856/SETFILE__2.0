@@ -31,7 +31,7 @@ CREATE TABLE `setting` (
   PRIMARY KEY (`id`),
   KEY `customer_id` (`customer_id`),
   CONSTRAINT `setting_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=68 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=70 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -81,6 +81,8 @@ INSERT INTO `setting` VALUES (64,95,'cphy_12','JN13_PRS_cphy_12','2025-05-31 14:
 INSERT INTO `setting` VALUES (65,96,'cphy_12','JN13_EDS_cphy_12','2025-05-31 14:39:33');
 INSERT INTO `setting` VALUES (66,97,'cphy_12','JN14_PRS_cphy_12','2025-05-31 14:41:59');
 INSERT INTO `setting` VALUES (67,98,'cphy_12','JN14_EDS_cphy_12','2025-05-31 14:41:59');
+INSERT INTO `setting` VALUES (68,99,'cphy_12','JN15_PRS_cphy_12','2025-05-31 14:48:46');
+INSERT INTO `setting` VALUES (69,100,'cphy_12','JN15_EDS_cphy_12','2025-05-31 14:48:46');
 /*!40000 ALTER TABLE `setting` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -93,4 +95,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-05-31 20:12:01
+-- Dump completed on 2025-05-31 20:18:49
